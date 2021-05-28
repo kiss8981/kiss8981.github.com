@@ -289,10 +289,11 @@ defaults:
       share: true
       related: true
       popular: false
+      last_modified_at: 2021-05-28T08:20:00+09:00
       categories: 
-        - 
+
       tag:
-        - 
+        -
   
   # _pages
   - scope:
