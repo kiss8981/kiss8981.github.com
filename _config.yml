@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # 태마 색 설정 "air", "aqua", "contrast",
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "김도현 - kiss8981.github.io"
+title                    : "김도현"
 title_separator          : "-"
-subtitle                 : "kiss8981"
+subtitle                 : "React NodeJS AWS등 개발을 공부하는 블로그!"
 name                     : "김도현"
-description              : "React NodeJS AWS 등 개발을 공부하는 블로그!"
+description              : "React NodeJS AWS등 개발을 공부하는 블로그!"
 url                      : "https://kiss8981.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kiss8981/kiss8981.github.com"
