@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll
 remote_theme           : mmistakes/minimal-mistakes
-minimal_mistakes_skin    : "dark" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" 
+minimal_mistakes_skin    : "default" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" 
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "김도현"
 title_separator          : "-"
-subtitle                 : "React NodeJS AWS등 개발을 공부하는 블로그!"
+subtitle                 : "kiss8981"
 name                     : "김도현"
 description              : "React NodeJS AWS등 개발을 공부하는 블로그!"
 url                      : "https://kiss8981.github.io/"
