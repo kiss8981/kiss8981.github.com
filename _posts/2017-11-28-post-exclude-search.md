@@ -1,6 +1,6 @@
 ---
 title:  "Exclude Post from Search Index"
-search: true
+search: false
 categories: 
   - AWS
 last_modified_at: {% last_modified_at %Y:%B:%A:%d:%S:%R %}
