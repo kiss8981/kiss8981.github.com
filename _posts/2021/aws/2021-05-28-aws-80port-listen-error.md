@@ -4,6 +4,11 @@ search: true
 categories: 
   - AWS
 last_modified_at: 2021-05-28T08:20:00+09:00
+
+tag:
+ - aws
+ - pm2
+ - nodejs
 ---
 
 AWS Nodejs Error: listen EACCES 0.0.0.0:80 에러 해결하기

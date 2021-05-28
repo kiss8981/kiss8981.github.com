@@ -4,6 +4,9 @@ search: true
 categories: 
   - NodeJS
 last_modified_at: 2021-05-29T00:20:00+09:00
+tag:
+ - pm2
+ - nodejs
 ---
 
 Node JS PM2에서 리액트 빌드파일(single-page application) 실행하기
