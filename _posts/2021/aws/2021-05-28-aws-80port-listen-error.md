@@ -29,8 +29,8 @@ su –
 git clone git링크
 ```
 
-* pm2 시작 SPA서비스 기준 (빌드된 파일)
+* pm2 시작 SPA(single-page application)서비스 기준 (빌드된 파일)
 
 ```
-pm2 serve [폴더명] 80  --spa --name "이름"
+pm2 serve [폴더명] 80 --spa --name "이름"
 ```
