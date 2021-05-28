@@ -2,7 +2,7 @@
 title:  "[AWS] PM2 80번 포트에서 실행하기"
 search: true
 categories: 
-  - Aws
+  - AWS
 last_modified_at: 2021-05-28T08:20:00+09:00
 ---
 
