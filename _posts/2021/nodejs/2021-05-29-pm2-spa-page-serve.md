@@ -3,7 +3,7 @@ title:  "[NodeJS] PM2 리액트 빌드파일 실행하기"
 search: true
 categories: 
   - NodeJS
-last_modified_at: 2021-05-29T00:20:00+09:00
+last_modified_at: 2021-05-30T22:10:00+09:00
 tag:
  - PM2
  - NodeJS
@@ -23,7 +23,7 @@ npm install pm2 -g
 * PM2 SPA(single-page application) 서비스 실행
 
 ```
-pm2 serve [폴더명] --name "PM2에 표시될 이름"
+pm2 serve [폴더명] --spa --name "PM2에 표시될 이름"
 ```
 
 * 다른 포트에서 실행을 원할 경우
