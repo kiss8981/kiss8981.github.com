@@ -12,7 +12,8 @@ tag:
 리액트에서 useEffect()를 사용하는 자세한방법
 
 
-무언가 변동 사항이 있을때마다 실행
+**첫 번째:** 변동 사항이 있을 때마다 실행하는 방식
+{: .notice--info}
 
 ```
 import React, { useEffect } from 'react';
@@ -25,7 +26,8 @@ function main() {
 
 ```
 
-페이지가 로딩될때만 실행
+**두 번째:** 페이지가 로딩될 때만 실행
+{: .notice--info}
 
 ```
 import React, { useEffect } from 'react';
@@ -39,7 +41,8 @@ function main() {
 ```
 
 
-count 변수에 변동이 생길시 수정
+**세 번째:** count 변수에 변동이 생길 시 수정
+{: .notice--info}
 
 ```
 import React, { useState, useEffect } from 'react';
