@@ -6,6 +6,22 @@ layout: null
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+    <loc>https://kiss8981.github.io/</loc>
+    <priority>1.0000</priority>
+    </url>
+    <url>
+    <loc>https://kiss8981.github.io/categories/</loc>
+    <priority>0.8000</priority>
+    </url>
+    <url>
+    <loc>https://kiss8981.github.io/tags/</loc>
+    <priority>0.8000</priority>
+    </url>
+    <url>
+    <loc>https://kiss8981.github.io/posts/</loc>
+    <priority>0.8000</priority>
+    </url>
     {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
