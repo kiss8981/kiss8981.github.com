@@ -11,18 +11,19 @@ tag:
 
 ExpressJS에서 http없이 접속할 경우 https가 있는 페이지로 리다이렉트
 
+http는 80번 포트이므로 80번 포트로 접속하는 모든 유저를 https로 리다이렉트 합니다
 
 ```js
-var express = require("express");
-var app = express.createServer();
+const express = require('express');
+const app = express();
+const server = http.createServer(app);
 
-app.all(/.*/, function(req, res, next) {
-  var host = req.header("host");
-  if (host.match(/^www\..*/i)) {
-    next();
-  } else {
-    res.redirect(301, "http://www." + host + req.url);
-  }
-});
+app.get("*", (req, res) => {
+    let to = "https://" +  req.headers.host + req.url;
+    res.redirect(to)
+})
+
+const listener = server.listen(80, function() {
+    console.log("app is listening on port " + listener.address().port);})
 ```
 
