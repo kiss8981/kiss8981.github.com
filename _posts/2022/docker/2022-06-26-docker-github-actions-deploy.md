@@ -2,7 +2,7 @@
 title: "[Docker + Github Actions] 깃허브 액션과 도커를 이용하여 배포 자동화하기"
 last_modified_at: '2022-06-26 03:00:00 +0900'
 categories:
-- docker
+- Docker
 tag:
 - NodeJS
 - Docker
