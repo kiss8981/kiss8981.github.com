@@ -28,47 +28,12 @@
 <!-- Google Adsense -->
 <script
   async
+  crossorigin="anonymous"
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2701426579223876"
 ></script>
 
 <script>
-  var checkAdsenseAdsFlag = true;
-  var checkAdsenseAdsTimer = 0;
-  var checkAdsenseAdsCnt = 0;
-  function checkAdsenseAds() {
-    if (checkAdsenseAdsFlag) {
-      if (checkAdsenseAdsTimer != 0) {
-        clearTimeout(checkAdsenseAdsTimer);
-        checkAdsenseAdsTimer = 0;
-      }
-      checkAdsenseAdsTimer = setTimeout(function () {
-        var insAdsbygoogle = $("ins.adsbygoogle");
-        if (insAdsbygoogle.length > 0) {
-          var cnt = 0;
-          for (var i = 0; i < insAdsbygoogle.length; i++) {
-            if (
-              !insAdsbygoogle.eq(i).attr("data-ad-client") &&
-              insAdsbygoogle.eq(i).attr("data-adsbygoogle-status") == "done" &&
-              insAdsbygoogle.eq(i).attr("data-ad-status") == "unfilled"
-            ) {
-              insAdsbygoogle.eq(i).children().remove();
-              insAdsbygoogle.eq(i).css("display", "block");
-              insAdsbygoogle.eq(i).removeAttr("data-adsbygoogle-status");
-              insAdsbygoogle.eq(i).removeAttr("data-ad-status");
-              (adsbygoogle = window.adsbygoogle || []).push({});
-              cnt++;
-              if (checkAdsenseAdsCnt > 5) insAdsbygoogle.eq(i).remove();
-            }
-          }
-          if (cnt == 0) checkAdsenseAdsFlag = false;
-          checkAdsenseAdsCnt++;
-        }
-      }, 500);
-    }
-  }
-  $(document).ready(function() {
-    $(window).on('scroll resize', function() {
-        checkAdsenseAds();
-    });
-});
+  window.onload = function () {
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  };
 </script>
