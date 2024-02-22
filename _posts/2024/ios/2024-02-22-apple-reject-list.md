@@ -1,5 +1,6 @@
 ---
 title: "[iOS, Apple] 앱 심사하면서 있었던 일들"
+last_modified_at: "2024-02-22 07:00:00 +0900"
 categories:
   - iOS
 tag:
