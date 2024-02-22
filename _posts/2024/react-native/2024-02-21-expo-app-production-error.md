@@ -1,5 +1,6 @@
 ---
 title: "[Expo + React Native] 빌드하면서 프로덕션에서만 발생하던 문제들"
+last_modified_at: "2024-02-21 07:00:00 +0900"
 tag:
   - Expo
   - React Native
